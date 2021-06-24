@@ -53,7 +53,7 @@ function Right() {
                     </div>
 
                 </div>
-                <button className="btn"><NavLink to="/payment" style={{ textDecoration: 'none' }}>Continue</NavLink></button>
+                <div className="btn"><button><NavLink to="/payment" style={{ textDecoration: 'none' }}>Continue</NavLink></button></div>
             </div>
             
         </div>

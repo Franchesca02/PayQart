@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Phone from "../files/phone.png";
+import Logo from "../files/Logo.jpg";
 
 import Shirt from "../files/shirt.jpg";
 
@@ -10,8 +11,18 @@ function Left() {
       <div className="side-logo height">
           <div className="overlay"></div>
         <NavLink to="/" className="back"><i class="fas fa-long-arrow-alt-left"></i>Back to store</NavLink>
+      <div className="payqart-icon"><img src={Logo} alt="Payqart logo" /></div>
+     
+      <div className="lists">
+<ul>
+  <li>Get pre-approved instantly.</li>
+  <li>Spread payment for up to six months.</li>
+  <li>Provide some basic information to get started.</li>
+</ul>
+</div>
+
       </div>
-      
+
       <div className="order-summary height">
           <h6 className="order">Order Summary</h6>
           <div className="item-cards">
