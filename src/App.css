@@ -96,9 +96,21 @@ width: 130px;
 height: 130px;
 border-radius: 10px;
 font-size: 15px;
-color: rgb(175, 4, 98);
+color: rgb(128, 0, 60);
 box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
+
+.select-man{
+  background-color: rgb(128, 0, 60);
+  color: rgb(128, 0, 60);
+  width: 130px;
+height: 130px;
+border-radius: 10px;
+font-size: 18px;
+/* color: rgb(128, 0, 60); */
+box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
 .what {
   text-align: center;
   font-size: 18px;
@@ -207,15 +219,15 @@ text-align: center;
 }
 .lists {
   position: relative;
-  top: 600px;
+  top: 500px;
   color: white;
   left: 20px;
   right: 0;
 }
 .payqart-icon {
-  width: 60%;
+  width: 50%;
 position: relative;
-top: 350px;
+top: 300px;
 margin: 0 auto;
 }
 .billing-page {
